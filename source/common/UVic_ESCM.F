@@ -1268,8 +1268,8 @@
 #   if defined O_npzd_nitrogen
       call set (issdoc13, m, mapsbc(m), 'ssdoc13', m)
       call set (idoc13flx, m, mapsbc(m), 'doc13flx', m)
-      call set (issdiaz, m, mapsbc(m), 'ssdiazc13', m)
-      call set (idiazflx, m, mapsbc(m), 'diazc13flx', m)
+      call set (issdiazc13, m, mapsbc(m), 'ssdiazc13', m)
+      call set (idiazc13flx, m, mapsbc(m), 'diazc13flx', m)
 #   endif
 #  endif
 # endif
